@@ -40,7 +40,7 @@ DateInputFormField(
                   decoration: const InputDecoration(
                     labelText: 'Date of Birth',
                     border: OutlineInputBorder(),
-                  ),
+            ),
     ),
 
 
