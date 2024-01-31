@@ -8,7 +8,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/ravikovind/date_input_form_field)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/ravikovind/date_input_form_field)
 
-`date_input_form_field` is a widget for easy date input within a Form, supporting various formats. It is similar to the `TextFormField` widget. 
+`date_input_form_field` is a widget for easy date input within a Form, supporting various formats. It is similar to the `TextFormField` widget.
 
 <!-- video screenshots/date_input_form_field.mp4 -->
 <img src="https://raw.githubusercontent.com/ravikovind/date_input_form_field/master/screenshots/date_input_form_field.mp4"  height="600" />
@@ -33,8 +33,16 @@ import 'package:date_input_form_field/date_input_form_field.dart';
 Use the Icon
 
 ```dart
+DateInputFormField(
+                  autovalidateMode: AutovalidateMode.onUserInteraction,
+                  format: 'dd/MM/yyyy',
+                  controller: controller,
+                  decoration: const InputDecoration(
+                    labelText: 'Date of Birth',
+                    border: OutlineInputBorder(),
+                  ),
+    ),
 
-Icon(LucideIcons.route);
 
 ```
 
